@@ -1,0 +1,52 @@
+{
+  "genres": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "genre2idx": {
+    "blues": 0,
+    "classical": 1,
+    "country": 2,
+    "disco": 3,
+    "hiphop": 4,
+    "jazz": 5,
+    "metal": 6,
+    "pop": 7,
+    "reggae": 8,
+    "rock": 9
+  },
+  "idx2genre": {
+    "0": "blues",
+    "1": "classical",
+    "2": "country",
+    "3": "disco",
+    "4": "hiphop",
+    "5": "jazz",
+    "6": "metal",
+    "7": "pop",
+    "8": "reggae",
+    "9": "rock"
+  },
+  "n_classes": 10,
+  "sample_rate": 22050,
+  "n_mels": 64,
+  "hop_length": 512,
+  "n_fft": 2048,
+  "fmin": 20,
+  "fmax": 8000,
+  "segment_sec": 5,
+  "segment_hop": 2.5,
+  "gru_hidden": 256,
+  "gru_layers": 2,
+  "dropout": 0.4,
+  "best_val_acc": 0.7315436241610739,
+  "tta_test_acc": 0.6767676767676768
+}
